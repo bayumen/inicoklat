@@ -1,0 +1,284 @@
+{
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Jus Wortel",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "wortel.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Nasi Goreng Telur",
+      "harga": 14000,
+      "is_ready": true,
+      "gambar": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "coklat coffe",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "coklat coffe.jpeg"
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "coklat crunch",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "coklat crunch.jpeg"
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "coklat jelly",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "coklat jelly.jpeg"
+    },
+    {
+      "id": 4,
+      "kode": "K-04",
+      "nama": "coklat keju",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "coklat keju.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "K-05",
+      "nama": "coklat milk",
+      "harga": 13000,
+      "is_ready": true,
+      "gambar": "coklat milk.jpeg"
+    },
+    {
+      "id": 6,
+      "kode": "K-06",
+      "nama": "coklat oreo",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "coklat oreo.jpeg"
+    },
+    {
+      "id": 7,
+      "kode": "K-07",
+      "nama": "coklat original",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "coklat original.jpeg"
+    },
+    {
+      "id": 8,
+      "kode": "K-08",
+      "nama": "coklat strowberry",
+      "harga": 11000,
+      "is_ready": true,
+      "gambar": "coklat strowberry.jpeg"
+    },
+    {
+      "id": 9,
+      "kode": "K-09",
+      "nama": "coklat vanila",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "coklat vanila.jpeg"
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "nama": "bayu pratama",
+      "noMeja": "7",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "komplit",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "6",
+          "keterangan": "pedas 5 manis 1",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "komplit",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Mie Ayam Bakso",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "mie-ayam-bakso.jpg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nama": "bayu",
+      "noMeja": "6",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "pedas",
+          "products": {
+            "id": 4,
+            "kode": "K-04",
+            "nama": "Mie Ayam Bakso",
+            "harga": 14000,
+            "is_ready": true,
+            "gambar": "mie-ayam-bakso.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "nama": "bayu",
+      "noMeja": "3",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "pedas",
+          "products": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "nama": "bayu",
+      "noMeja": "4",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "4",
+          "keterangan": "pake bakso jumbo",
+          "products": {
+            "id": 6,
+            "kode": "K-06",
+            "nama": "Bakso",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "bakso.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "gak pake kulit",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Sate Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "sate-ayam.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "nama": "bayu",
+      "noMeja": "7",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "3",
+          "keterangan": "pedas",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "nama": "hernan",
+      "noMeja": "9",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "4",
+          "keterangan": "manis",
+          "products": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": 12000,
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "nama": "yazid",
+      "noMeja": "00099887",
+      "keranjangs": [
+        {
+          "jumlah_pemesanan": "2",
+          "keterangan": "es nya batu",
+          "products": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "coklat coffe",
+            "harga": 10000,
+            "is_ready": true,
+            "gambar": "coklat coffe.jpeg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
